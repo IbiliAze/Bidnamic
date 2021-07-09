@@ -12,7 +12,7 @@ Install requirements
 
 App starter: app.py
 
-Monitored dir: monitor
+Monitored dir: monitor/
 
 # Get started
 

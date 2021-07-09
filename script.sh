@@ -2,13 +2,13 @@
 
 echo *** Step 1 ***
 echo Install dependencies and build
-function install_dep_ubuntu() {
+function install_dep_deb() {
     sudo apt install -y python3 python3-venv 
 }
 function install_dep_rh() {
     sudo yum install -y python3 python3-venv 
 }
-if [ install_dep_ubuntu 2> /dev/null ]; then
+if [ install_dep_deb 2> /dev/null ]; then
     install_dep_rh
 fi
 pip install -r requirements.txt
