@@ -26,7 +26,7 @@ python3 -m venv .
 
 source bin/activate
 
-nohup python.exe -u .\app.py & # run as background daemon
+nohup python.exe -u ./app.py & # run as background daemon
 
 cp test_data.csv monitor/
 
