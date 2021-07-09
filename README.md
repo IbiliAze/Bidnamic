@@ -7,18 +7,26 @@ Application responsible for monitoring a directory for new CSV files. Each file 
 # How to use
 
 Python virtual environment
+
 Install requirements
+
 App starter: app.py
+
 Monitored dir: monitor
 
 # Get started
 
 pip install -r requirements.txt
+
 sudo apt install -y python3-venv # for Ubuntu
+
 sudo yum install -y python3-venv # for RedHat
 python3 -m venv .
+
 source bin/activate
+
 nohup python.exe -u .\app.py & # run as background daemon
+
 cp test_data.csv monitor/
 
 # How it works
